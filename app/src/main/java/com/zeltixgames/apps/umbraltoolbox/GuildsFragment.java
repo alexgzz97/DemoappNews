@@ -1,4 +1,4 @@
-package com.definityfirst.jesusgonzalez.tibiastats;
+package com.zeltixgames.apps.umbraltoolbox;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,12 +10,12 @@ import android.view.ViewGroup;
  * Created by jesus.gonzalez on 16/02/2017.
  */
 
-public class HighscoresFragment extends Fragment {
+public class GuildsFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
         // Defines the xml file for the fragment
-        return inflater.inflate(R.layout.fragment_highscores, parent, false);
+        return inflater.inflate(R.layout.fragment_guilds, parent, false);
     }
 
     // This event is triggered soon after onCreateView().

@@ -1,4 +1,4 @@
-package com.definityfirst.jesusgonzalez.tibiastats;
+package com.zeltixgames.apps.umbraltoolbox;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

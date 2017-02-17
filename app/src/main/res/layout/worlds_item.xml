@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/worldname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/playerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Online: "
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="false"
+        android:layout_toLeftOf="@+id/online"
+        android:paddingRight="28sp"
+        android:paddingTop="8dp" />
+    <TextView
+        android:id="@+id/online"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_gravity="end"
+        android:textAlignment="textEnd"
+        android:paddingTop="8dp" />
+
+</RelativeLayout>

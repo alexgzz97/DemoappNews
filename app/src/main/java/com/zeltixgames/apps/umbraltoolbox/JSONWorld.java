@@ -1,24 +1,23 @@
-package com.definityfirst.jesusgonzalez.tibiastats;
+package com.zeltixgames.apps.umbraltoolbox;
 
 /**
- * Created by jesus.gonzalez on 16/02/2017.
+ * Created by jesus.gonzalez on 17/02/2017.
  */
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
-public class AllNews {
+public class JSONWorld {
 
-    private List<News> news = null;
+    private Worlds worlds;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
-    public List<News> getNews() {
-        return news;
+    public Worlds getWorlds() {
+        return worlds;
     }
 
-    public void setNews(List<News> news) {
-        this.news = news;
+    public void setWorlds(Worlds worlds) {
+        this.worlds = worlds;
     }
 
     public Map<String, Object> getAdditionalProperties() {
@@ -28,5 +27,4 @@ public class AllNews {
     public void setAdditionalProperty(String name, Object value) {
         this.additionalProperties.put(name, value);
     }
-
 }
